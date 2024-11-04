@@ -1,6 +1,6 @@
 -- Cargar datos en la tabla de usuarios
 COPY Users(UserID, Gender, Age, Occupation, ZipCode)
-FROM '/data/users_cleaned.csv' DELIMITER '#' CSV;
+FROM '/data/users_cleaned.csv' DELIMITER ';' CSV;
 
 -- Cargar datos en la tabla de películas
 COPY Movies(MovieID, Title, Genres)
