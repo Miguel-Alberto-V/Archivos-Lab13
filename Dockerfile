@@ -5,6 +5,7 @@ FROM postgres:latest
 ENV POSTGRES_USER=myuser
 ENV POSTGRES_PASSWORD=mypassword
 ENV POSTGRES_DB=mydatabase
-
 # Expon el puerto por defecto de PostgreSQL
 EXPOSE 5432
+
+
